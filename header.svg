@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="240" viewBox="0 0 1200 240" role="img" aria-label="Dave Matthew Gunawan">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0d1117"/>
+      <stop offset="1" stop-color="#151b2e"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#00d4b4"/>
+      <stop offset="1" stop-color="#3fa9ff"/>
+    </linearGradient>
+    <pattern id="dots" width="24" height="24" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1.2" fill="#ffffff" fill-opacity="0.06"/>
+    </pattern>
+  </defs>
+  <rect width="1200" height="240" rx="20" fill="url(#bg)"/>
+  <rect width="1200" height="240" rx="20" fill="url(#dots)"/>
+  <!-- network motif -->
+  <g stroke="#3fa9ff" stroke-opacity="0.25" stroke-width="1.5">
+    <line x1="900" y1="60" x2="1000" y2="120"/><line x1="900" y1="180" x2="1000" y2="120"/>
+    <line x1="900" y1="120" x2="1000" y2="120"/><line x1="900" y1="60" x2="1000" y2="60"/>
+    <line x1="900" y1="180" x2="1000" y2="180"/><line x1="1000" y1="60" x2="1100" y2="120"/>
+    <line x1="1000" y1="120" x2="1100" y2="120"/><line x1="1000" y1="180" x2="1100" y2="120"/>
+    <line x1="900" y1="60" x2="1000" y2="180"/><line x1="900" y1="180" x2="1000" y2="60"/>
+  </g>
+  <g fill="#0d1117" stroke-width="3">
+    <circle cx="900" cy="60" r="9" stroke="#00d4b4"/><circle cx="900" cy="120" r="9" stroke="#00d4b4"/><circle cx="900" cy="180" r="9" stroke="#00d4b4"/>
+    <circle cx="1000" cy="60" r="9" stroke="#3fa9ff"/><circle cx="1000" cy="120" r="9" stroke="#3fa9ff"/><circle cx="1000" cy="180" r="9" stroke="#3fa9ff"/>
+    <circle cx="1100" cy="120" r="11" stroke="#ff4d8d"/>
+  </g>
+  <rect x="72" y="62" width="64" height="5" rx="2.5" fill="url(#accent)"/>
+  <text x="70" y="128" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="56" font-weight="700" fill="#e6edf3">Dave Matthew Gunawan</text>
+  <text x="72" y="174" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="24" font-weight="400" fill="#8b98ad">Reinforcement learning · Computer vision · Embedded robotics</text>
+</svg>
